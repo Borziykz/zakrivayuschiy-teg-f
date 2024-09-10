@@ -4,68 +4,93 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
-:root.theme-light{
-    --accent-font: "Press Start 2P", sans-serif;
-    --main-font: "Inter-Variable", sans-serif;
-    --accent-font-variation-setting: 400;
-    --font-variation-settings: 400;
-    --font-variation-settings-title: 700;
-    --main-color: #000;
-    --heart-accent-color: #000;
-    --heart-main-color: #FF0000;
-    --bg-color: #fff;
-    --button-text-color: #fff;
-    --heart-contour: #000;
-    --bg-color-1: #e7e7e7;
-    --bg-color-2: #1a1a1a;
-    --line-color: #d3d3d3;
-    --watermark-border: 1px 1px #fff;
-    --background-image:
-        repeating-linear-gradient(90deg, var(--line-color) 0 2px, transparent 2px 4px),
-        repeating-linear-gradient(0deg, var(--line-color) 0 2px, transparent 2px 4px),
-        linear-gradient(to bottom, var(--bg-color-1) 0.01%, var(--bg-color-2) 100%)
+:root.theme-light {
+  --accent-font: "Press Start 2P", sans-serif;
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font-variation-setting: 400;
+  --font-variation-settings: 400;
+  --font-variation-settings-title: 700;
+  --main-color: #000;
+  --heart-accent-color: #000;
+  --heart-main-color: #ff0000;
+  --bg-color: #fff;
+  --button-text-color: #fff;
+  --heart-contour: #000;
+  --bg-color-1: #e7e7e7;
+  --bg-color-2: #1a1a1a;
+  --line-color: #d3d3d3;
+  --watermark-border: 1px 1px #fff;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      var(--line-color) 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      var(--line-color) 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(to bottom, var(--bg-color-1) 0.01%, var(--bg-color-2) 100%);
 }
 
-:root.theme-dark{
-    --accent-font: "Press Start 2P", sans-serif;
-    --main-font: "Inter-Variable", sans-serif;
-    --accent-font-variation-setting: 400;
-    --font-variation-settings: 465;
-    --font-variation-settings-title: 785;
-    --main-color: #00CC14;
-    --heart-accent-color: #00CC14;
-    --heart-main-color: #FF0000;
-    --bg-color: #000;
-    --button-text-color: #00CC14;
-    --heart-contour: #00CC14;
-    --bg-color-1: #007f0c;
-    --bg-color-2: #004306;
-    --line-color: #000;
-    --background-image:
-        repeating-linear-gradient(90deg, var(--line-color) 0 2px, transparent 2px 4px),
-        repeating-linear-gradient(0deg, var(--line-color) 0 2px, transparent 2px 4px),
-        linear-gradient(to bottom, var(--bg-color-1) 0.01%, var(--bg-color-2) 100%)
+:root.theme-dark {
+  --accent-font: "Press Start 2P", sans-serif;
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font-variation-setting: 400;
+  --font-variation-settings: 465;
+  --font-variation-settings-title: 785;
+  --main-color: #00cc14;
+  --heart-accent-color: #00cc14;
+  --heart-main-color: #ff0000;
+  --bg-color: #000;
+  --button-text-color: #00cc14;
+  --heart-contour: #00cc14;
+  --bg-color-1: #007f0c;
+  --bg-color-2: #004306;
+  --line-color: #000;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      var(--line-color) 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      var(--line-color) 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(to bottom, var(--bg-color-1) 0.01%, var(--bg-color-2) 100%);
 }
 
 @media (prefers-color-scheme: dark) {
-    :root{
-        --accent-font: "Press Start 2P", sans-serif;
+  :root {
+    --accent-font: "Press Start 2P", sans-serif;
     --main-font: "Inter-Variable", sans-serif;
     --accent-font-variation-setting: 400;
     --font-variation-settings: 465;
     --font-variation-settings-title: 785;
-    --main-color: #00CC14;
-    --heart-accent-color: #00CC14;
-    --heart-main-color: #FF0000;
+    --main-color: #00cc14;
+    --heart-accent-color: #00cc14;
+    --heart-main-color: #ff0000;
     --bg-color: #000;
-    --button-text-color: #00CC14;
-    --heart-contour: #00CC14;
+    --button-text-color: #00cc14;
+    --heart-contour: #00cc14;
     --bg-color-1: #007f0c;
     --bg-color-2: #004306;
     --line-color: #000;
-    --background-image:
-        repeating-linear-gradient(90deg, var(--line-color) 0 2px, transparent 2px 4px),
-        repeating-linear-gradient(0deg, var(--line-color) 0 2px, transparent 2px 4px),
-        linear-gradient(to bottom, var(--bg-color-1) 0.01%, var(--bg-color-2) 100%)
-    }
+    --background-image: repeating-linear-gradient(
+        90deg,
+        var(--line-color) 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        var(--line-color) 0 2px,
+        transparent 2px 4px
+      ),
+      linear-gradient(
+        to bottom,
+        var(--bg-color-1) 0.01%,
+        var(--bg-color-2) 100%
+      );
+  }
 }

@@ -432,9 +432,6 @@
   .modal__open {
     width: 304px;
     flex-direction: column;
-  }
-
-  .modal__open {
     padding: 12px 0;
   }
 

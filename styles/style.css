@@ -88,7 +88,7 @@
   width: 100%;
 }
 
-.theme-menu__button:hover{
+.theme-menu__button:hover {
   opacity: 60%;
 }
 
@@ -319,20 +319,23 @@
   font-size: 14px;
 }
 
-@supports((text-stroke: 1px var(--stroke-color)) or (-webkit-text-stroke: 1px var(--stroke-color))) {
+@supports (
+  (text-stroke: 1px var(--stroke-color)) or
+    (-webkit-text-stroke: 1px var(--stroke-color))
+) {
   .watermark {
-      -webkit-text-stroke: 1px var(--stroke-color);
-      text-stroke: 1px var(--stroke-color);
-      text-shadow: none;
+    -webkit-text-stroke: 1px var(--stroke-color);
+    text-stroke: 1px var(--stroke-color);
+    text-shadow: none;
   }
-} 
+}
 
-.card__like-button{
+.card__like-button {
   width: 129px;
   padding: 8px 0;
 }
 
-.modal__close{
+.modal__close {
   width: 100%;
   padding: 12.5px 0;
   margin-top: 30px;
@@ -431,11 +434,11 @@
     flex-direction: column;
   }
 
-  .modal__open{
+  .modal__open {
     padding: 12px 0;
   }
 
-  .floppy{
+  .floppy {
     width: 30px;
     height: 33px;
   }
@@ -444,7 +447,7 @@
     margin-bottom: 50px;
   }
 
-  .modal-floppy{
+  .modal-floppy {
     width: 100px;
   }
 }

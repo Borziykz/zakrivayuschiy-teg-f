@@ -15,6 +15,7 @@
   --bg-color-2: #1a1a1a;
   --line-color: #d3d3d3;
   --watermark-border: 1px 1px #fff;
+  --stroke-color: #fff;
   --background-image: repeating-linear-gradient(
       90deg,
       var(--line-color) 0 2px,

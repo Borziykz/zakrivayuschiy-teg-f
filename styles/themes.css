@@ -5,11 +5,6 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light {
-  --accent-font: "Press Start 2P", sans-serif;
-  --main-font: "Inter-Variable", sans-serif;
-  --accent-font-variation-setting: 400;
-  --font-variation-settings: 400;
-  --font-variation-settings-title: 700;
   --main-color: #000;
   --heart-accent-color: #000;
   --heart-main-color: #ff0000;
@@ -20,6 +15,7 @@
   --bg-color-2: #1a1a1a;
   --line-color: #d3d3d3;
   --watermark-border: 1px 1px #fff;
+  --stroke-color: #fff;
   --background-image: repeating-linear-gradient(
       90deg,
       var(--line-color) 0 2px,
@@ -34,9 +30,6 @@
 }
 
 :root.theme-dark {
-  --accent-font: "Press Start 2P", sans-serif;
-  --main-font: "Inter-Variable", sans-serif;
-  --accent-font-variation-setting: 400;
   --font-variation-settings: 465;
   --font-variation-settings-title: 785;
   --main-color: #00cc14;
@@ -48,6 +41,8 @@
   --bg-color-1: #007f0c;
   --bg-color-2: #004306;
   --line-color: #000;
+  --watermark-border: 1px 1px #000;
+  --stroke-color: #000;
   --background-image: repeating-linear-gradient(
       90deg,
       var(--line-color) 0 2px,
@@ -77,6 +72,8 @@
     --bg-color-1: #007f0c;
     --bg-color-2: #004306;
     --line-color: #000;
+    --watermark-border: 1px 1px #000;
+    --stroke-color: #000;
     --background-image: repeating-linear-gradient(
         90deg,
         var(--line-color) 0 2px,

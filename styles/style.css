@@ -380,10 +380,6 @@
     max-width: 320px;
   }
 
-  .card__paragraph:last-of-type {
-    margin-bottom: 20px;
-  }
-
   .modal-floppy {
     width: 100px;
   }
